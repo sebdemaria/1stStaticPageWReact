@@ -52,7 +52,7 @@
 }
 
 .greensock{
-    height: fit-content;
+    height: auto;
     margin-right: 60px;
     transition: 0.5s ease-in-out;
     width: 25%;
