@@ -1,0 +1,80 @@
+.nosotros{
+    background-color: #e6ebe0;
+    box-sizing: border-box;
+    height: 770px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.agility{
+    box-shadow: 10px 9px 11px 0px rgb(0 0 0 / 30%);
+    left: 100px;
+    position: absolute;
+    top: 80px;
+    width: 25%;
+}
+
+
+.parag-cont{
+    height: 20px;
+    left: 530px;
+    position: absolute;
+    top: 150px;
+    width: 40%;
+}
+
+span{
+    background-color: #5ca4a9;
+    display: block;
+    height: 4px;
+    margin-top: 45px;
+    position: absolute;
+    width: 100%;
+}
+
+.usTitle{
+    display: inline;
+    font-size: 190%;
+    position: absolute;
+}
+
+.tunnel{
+    box-shadow: 10px 9px 11px 0px rgb(0 0 0 / 30%);
+    left: 380px;
+    position: absolute;
+    top: 430px;
+    width: 25%;
+    z-index: 1000;
+}
+
+.square{
+    border: 10px solid #9bc1bc;
+    height: 150px;
+    right: 550px;
+    position: absolute;
+    top: 320px;
+    width: 150px;
+    z-index: 1000;
+}
+
+.disc{
+    box-shadow: -9px 9px 11px 0px rgb(0 0 0 / 30%);
+    display: flex;
+    width: 32%;
+    position: absolute;
+    left: 980px;
+    top: 250px;
+}
+
+.paragraph-div{
+    bottom: 100px;
+    height: 20px;
+    position: absolute;
+    right: 85px;
+    width: 40%;
+
+}
+
+.paragraph{
+    font-size: 190%;
+}

@@ -1,0 +1,28 @@
+.history{
+    background-color: white;
+    height: max-content;
+    overflow: hidden; 
+    padding: 80px;
+}
+
+.lorem{
+    float: left;
+    font-size: 20px;
+    margin: 20px 0 0 80px;
+    width: 50%;
+}
+
+.lorem2{
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    margin: 50px 110px 0 20px;
+    text-align: end;
+    width: 51%;
+}
+
+#lorem3{
+    float: left;
+    margin-top: 30px;
+    margin-left: 180px;
+}

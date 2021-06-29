@@ -1,0 +1,52 @@
+@keyframes underline{
+    from{
+        text-decoration: none;
+    }
+    to{
+        text-decoration: underline;
+        
+    }
+}
+
+.footer-body{
+    background-color: #eaefe6;
+    bottom: 0;
+    display: block;
+    position: relative;
+    padding: 20px 0 20px 0;
+    z-index: 10000;
+}
+
+ul{
+    font-family: optima;
+    list-style-type: none;
+    margin: 0;
+    padding: 25px 25px 25px 40px;
+}
+
+li{
+    margin-bottom: 10px;
+    width: max-content;
+}
+
+li.left
+{
+    position: relative;
+}
+
+li.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.15s ease-in-out;
+}
+
+li.left:hover:before {
+    visibility: visible;
+    width: 100%;
+}

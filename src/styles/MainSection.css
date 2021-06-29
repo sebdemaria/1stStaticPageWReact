@@ -1,0 +1,47 @@
+@keyframes blur-animated{
+    from{
+        opacity: 0;
+        filter:blur(10px);
+    }
+    to{
+        opacity: 100%;
+        filter: blur(0px);
+        
+    }
+}
+
+@keyframes text-shadow{
+    from{
+        color: white;
+    }
+    to{
+        color: black;
+    }
+}
+
+.MainSection{
+    height: 614px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 100px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.welcome{
+    animation-duration: 3s;
+    animation-name: text-shadow;
+    font-family: "Bradley Hand";
+    font-size: 50px;
+}
+
+.border{
+    animation-duration: 1s;
+    animation-name: blur-animated;
+    border: 0!important;
+    display: block;
+    left: 38%;
+    top: 40px;
+    position: relative;
+    width: 380px;
+}
