@@ -15,8 +15,3 @@ export const GithubSection = () => {
         </section>
     )
 }
-
-// $(".logo-leave").(function(){
-//     $(this).addClass('github-logo-out');
-//     $(this).removeClass('github-logo');
-// });
