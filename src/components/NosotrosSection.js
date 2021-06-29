@@ -105,14 +105,14 @@ export const NosotrosSection = () => {
 
     return (
         <section id="us" ref={ref} className="nosotros">
-            <img className="agility" src="border-agility-1.jpeg" alt="agility"></img>
+            <img className="agility" src="./../border-agility-1.jpeg" alt="agility"></img>
             <div className="parag-cont">
                 <h2 className="usTitle">Haciendo historia con nuestros amigos...</h2>
                 <span className="underline"></span>
             </div>
-            <img className="tunnel" src="border-agility-2.jpeg" alt="tunnel"></img>
+            <img className="tunnel" src="./../border-agility-2.jpeg" alt="tunnel"></img>
             <div className="square"></div>
-            <img className="disc" src="border-flying-disc-1.jpeg" alt="agility"></img>
+            <img className="disc" src="./../border-flying-disc-1.jpeg" alt="agility"></img>
             <div className="paragraph-div"><p className="paragraph">Con gran diversión</p></div>
         </section>
     )
